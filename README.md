@@ -1,3 +1,3 @@
 #Live Link
 
-http://www.amruiz.com/landing-page/
+<a href="http://www.amruiz.com/landing-page/">Landing Page</a>
