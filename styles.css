@@ -4,11 +4,36 @@ body {
     color: #595B83;
 }
 
+a {
+    text-decoration: none;
+    color: #595B83;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul,
+h1,
+h3 {
+    margin: 0;
+}
+
 /* header */
+
+header,
+.nav-container,
+ul,
+.header-container {
+    display: flex;
+}
 
 header {
     background-color: #F6DFEB;
-    display: flex;
     justify-content: center;
 }
 
@@ -17,30 +42,16 @@ header {
 }
 
 .nav-container {
-    display: flex;
     justify-content: space-between;
     margin: 20px 0 70px;
 }
 
 ul {
-    display: flex;
     gap: 30px;
-    margin: 0;
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #595B83;
-}
-
-.logo {
-    font-weight: bold;
-}
-
 .header-container {
-    display: flex;
     gap: 50px;
     flex-wrap: wrap;
     margin-bottom: 70px; 
@@ -50,26 +61,28 @@ a {
     flex-basis: 450px;
 }
 
-h1 {
-    font-size: 48px;
-    margin: 0;
+a,
+.button {
+    font-size: 18px;
 }
 
-p {
-    font-size: 16px;
+.button,
+.logo {
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 5px 20px;
 }
 
 .button-top {
-    font-weight: bold;
-    font-size: 18px;
     background: #E4BAD4;
     color: #595B83;
     border: none;
-    padding: 5px 20px;
-    border-radius: 5px;
 }
 
-.shitty-img {
+.header-img {
     width: 410px;
     height: 250px;
     border-radius: 10px;
@@ -79,7 +92,6 @@ p {
 
 h2 {
     font-size: 36px;
-    text-align: center;
     margin: 40px;
     padding-top: 20px;
 }
@@ -102,6 +114,7 @@ h2 {
     border: 5px solid #595B83;
 }
 
+h2, 
 .text {
     text-align: center;
 }
@@ -129,40 +142,39 @@ blockquote > p {
     font-size: 20px;
     text-align: end;
     font-weight: bold;
-
 }
 
 /* action */
-.action-section {
+.action-section,
+.action-container {
     display: flex;
-    justify-content: center;
-    margin: 40px;
     padding: 40px;
 }
 
+.action-section {
+    justify-content: center;
+    margin: 40px;
+}
+
 .action-container {
-    display: flex;
     flex-basis: 950px;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
     border-radius: 15px;
+}
+
+.action-container,
+.button-bottom {
     background-color: #E4BAD4;
 }
 
 .button-bottom {
     color: white;
-    font-weight: bold;
-    font-size: 18px;
-    background-color: #E4BAD4;
     border: 3px solid white;
-    border-radius: 5px;
-    padding: 5px 20px;
 }
 
 h3 {
     font-size: 24px;
-    margin: 0;
 }
 
 /* footer */
