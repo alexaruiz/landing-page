@@ -4,7 +4,7 @@ The purpose of this landing page is to demonstrate knowledge of Flexbox. This pr
 
 ## Live Link
 
-<a href="http://www.amruiz.com/landing-page/">Landing Page</a>
+<a href="https://alexaruiz.github.io/landing-page/">Landing Page</a>
 
 ## Acknowledgements
 
